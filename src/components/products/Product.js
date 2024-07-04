@@ -1,6 +1,6 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
-import "./product.sass"
+import "./product.sass";
 import Container from "react-bootstrap/Container";
 
 import { ProductDetail } from "./ProductDetail";
@@ -18,11 +18,15 @@ function Product({ id, title, products }) {
                 id={id}
                 title={title}
                 key={id}
-                products={products} 
+                products={products}
               />
             ))}
           </Container>
-          <img src="blooma/assets/images/products/RUTINAS WEB.jpg" class="img-fluid" alt="" />
+          <img
+            src="assets/images/products/RUTINAS WEB.jpg"
+            class="img-fluid"
+            alt=""
+          />
         </Accordion.Body>
       </Accordion.Item>
     </>

@@ -22,15 +22,10 @@
   }
 }
 @media (max-width: 768px) {
-  .titulo {
-    font-size: 3em;
-    display: flex;
-    flex-wrap: wrap;
-    width: 5em;
-  }
   .ftr {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
   }
 }/*# sourceMappingURL=footer.css.map */

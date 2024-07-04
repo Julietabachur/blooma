@@ -2,22 +2,23 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { FaWhatsapp } from 'react-icons/fa';
-
-
+import { FaWhatsapp } from "react-icons/fa";
 
 function ProductDetailChild({ description, id, image, message, title }) {
-  const loadImage = `blooma/assets/images/products/${image}`;
+  const loadImage = `assets/images/products/${image}`;
   const linkWhats = `https://api.whatsapp.com/send?phone=541123886544&text=${message}${title}`;
 
   return (
     <>
       {
-        
         <Card className="mb-4">
           <Row>
             <Col sm={4}>
-              <Card.Img className="img-thumbnail" width={20 + "%"} src={loadImage} />
+              <Card.Img
+                className="img-thumbnail"
+                width={20 + "%"}
+                src={loadImage}
+              />
             </Col>
             <Col sm={8}>
               <Card.Body>
@@ -30,13 +31,12 @@ function ProductDetailChild({ description, id, image, message, title }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaWhatsapp size='1.3em' /> Consultar por producto
+                  <FaWhatsapp size="1.3em" /> Consultar por producto
                 </a>
               </Card.Body>
             </Col>
           </Row>
         </Card>
-        
       }
     </>
   );

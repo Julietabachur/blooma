@@ -16,50 +16,7 @@ const Contacto = () => {
       <div className="bg-light">
         <div className="container">
           <div className="mx-5 d-flex flex-column">
-            <div className="d-flex justify-content-center">
-              <ul className="justify-content-around d-flex align-content-center m-0 p-0 flex-wrap">
-                <li className="m-4 align-items-center d-flex  column justify-content-center px-5 contacto">
-                  <a
-                    href="https://www.instagram.com/blooma.lashnails/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className=" p-0 flex-column text-black text-decoration-none d-flex flex-wrap"
-                  >
-                    <div className="d-flex justify-content-center m-2">
-                      <FiInstagram size="4em" />
-                    </div>
-                    <div>INSTAGRAM</div>
-                  </a>
-                </li>
-                <li className="m-4 align-items-center d-flex column justify-content-center px-5 contacto">
-                  <a
-                    href="https://wa.me/541123886544?text=Hola!%20Estoy%20interesada,%20me%20pasas%20m%C3%A1s%20info%20por%20favor?"
-                    target="_blank"
-                    rel="noreferrer"
-                    className=" p-0 flex-column text-black text-decoration-none align-content-center d-flex flex-wrap"
-                  >
-                    <div className="d-flex justify-content-center m-2">
-                      <FaWhatsapp size="4em" />
-                    </div>
-                    <div>WHATSAPP</div>
-                  </a>
-                </li>
-                <li className="m-4 align-items-center d-flex  column justify-content-center px-5 contacto">
-                  <a
-                    href="https://www.facebook.com/blooma.lashnails"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="  p-0 flex-column text-black text-decoration-none d-flex flex-wrap"
-                  >
-                    <div className="d-flex justify-content-center m-2">
-                      <BsFacebook size="3.5em" />
-                    </div>
-                    <div>FACEBOOK</div>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="border-dark border-top d-flex justify-content-center align-content-center flex-column pt-5 pb-2">
+            <div className=" d-flex justify-content-center align-content-center flex-column  pb-2 mt-5">
               <h2 className="justify-content-start d-flex align-content-center fw-bold mb-3">
                 ¡Acá estamos!
               </h2>
@@ -90,8 +47,51 @@ const Contacto = () => {
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
+            <div className="d-flex justify-content-center border-dark border-top border-bottom py-3 mb-5">
+              <ul className="justify-content-around d-flex align-content-center m-0 p-0 flex-wrap">
+                <li className="m-4 align-items-center d-flex  column justify-content-center px-5 contacto">
+                  <a
+                    href="https://www.instagram.com/blooma.lashnails/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className=" p-0 flex-column text-black text-decoration-none d-flex flex-wrap"
+                  >
+                    <div className="d-flex justify-content-center m-2">
+                      <FiInstagram className="redesContacto" />
+                    </div>
+                    <div>INSTAGRAM</div>
+                  </a>
+                </li>
+                <li className="m-4 align-items-center d-flex column justify-content-center px-5 contacto">
+                  <a
+                    href="https://wa.me/541123886544?text=Hola!%20Estoy%20interesada,%20me%20pasas%20m%C3%A1s%20info%20por%20favor?"
+                    target="_blank"
+                    rel="noreferrer"
+                    className=" p-0 flex-column text-black text-decoration-none align-content-center d-flex flex-wrap"
+                  >
+                    <div className="d-flex justify-content-center m-2">
+                      <FaWhatsapp className="redesContacto" />
+                    </div>
+                    <div>WHATSAPP</div>
+                  </a>
+                </li>
+                <li className="m-4 align-items-center d-flex  column justify-content-center px-5 contacto">
+                  <a
+                    href="https://www.facebook.com/blooma.lashnails"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="  p-0 flex-column text-black text-decoration-none d-flex flex-wrap"
+                  >
+                    <div className="d-flex justify-content-center m-2">
+                      <BsFacebook className="redesContacto" />
+                    </div>
+                    <div>FACEBOOK</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
             <div className=" mb-5">
-              <h3 className="fw-bold justify-content-center d-flex align-content-center fs-2">
+              <h3 className="fw-bold text-center justify-content-center d-flex align-content-center fs-2">
                 ¡Te esperamos!
               </h3>
               <p className="justify-content-center d-flex align-content-center fs-3">

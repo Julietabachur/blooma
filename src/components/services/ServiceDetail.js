@@ -2,10 +2,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp } from "react-icons/fa";
 
 function ServiceDetail({ description, id, image, message, title }) {
-  const loadImage = `blooma/assets/images/services/${image}`;
+  const loadImage = `assets/images/services/${image}`;
   const linkWhats = `https://api.whatsapp.com/send?phone=541123886544&text=${message}${title}`;
 
   return (
@@ -26,7 +26,7 @@ function ServiceDetail({ description, id, image, message, title }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaWhatsapp size='1.3em' /> Consultar por producto
+                  <FaWhatsapp size="1.3em" /> Consultar por producto
                 </a>
               </Card.Body>
             </Col>
